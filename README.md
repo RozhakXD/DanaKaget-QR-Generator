@@ -8,8 +8,8 @@
 
 ## Fitur
 - **QR Code Generation**: Buat kode QR dengan logo yang bisa dipilih dari empat opsi yang tersedia.
-- **Random Link Generation**: Buat link Dana Kaget acak dengan satu klik.
 - **Multiple Iterations**: Mendukung pembuatan beberapa QR code dalam satu kali eksekusi.
+- **Random Link Generation**: Buat link Dana Kaget acak dengan satu klik.
 
 ## Prasyarat
 Pastikan Anda memiliki Python 3.x terinstal di sistem Anda. Tool ini membutuhkan beberapa pustaka Python berikut:
@@ -47,9 +47,9 @@ python3 Run.py <COUNT> <PATH> <IMAGE> <LINK>
 ```
 
 ### Argumen
-- `COUNT` - Jumlah iterasi untuk memproses link (misalnya: 10).
 - `PATH` - Direktori di mana file gambar akan disimpan (misalnya: `/sdcard/Download/`).
 - `IMAGE` - Nomor gambar yang akan digunakan sebagai logo pada QR (1, 2, 3, atau 4).
+- `COUNT` - Jumlah iterasi untuk memproses link (misalnya: 10).
 - `LINK` - Link yang akan diproses atau 'null' untuk menghasilkan link acak.
 
 ## Contoh Penggunaan
@@ -74,10 +74,10 @@ Jika terjadi kesalahan selama eksekusi, program ini akan memberikan log yang det
 Kontribusi sangat terbuka! Jangan ragu untuk membuka issue atau pull request untuk perbaikan dan fitur baru.
 
 ## Donasi
-Jika Anda merasa proyek ini bermanfaat dan ingin mendukung pengembangan lebih lanjut, Anda dapat memberikan donasi melalui:
+Apabila proyek ini bermanfaat bagi Anda, dukungan Anda melalui donasi sangat dihargai:
 
 - [Trakteer](https://trakteer.id/rozhak_official/tip)
 - [PayPal](https://paypal.me/rozhak9)
 
 ## Lisensi
-Proyek ini dilisensikan di bawah lisensi MIT. Lihat [LICENSE](https://github.com/RozhakXD/DanaKaget-QR-Generator?tab=GPL-3.0-1-ov-file) untuk informasi lebih lanjut.
+Proyek ini berlisensi MIT. Untuk mempelajari lebih lanjut tentang hak dan batasan penggunaan, silakan lihat [LICENSE](https://github.com/RozhakXD/DanaKaget-QR-Generator?tab=GPL-3.0-1-ov-file).
